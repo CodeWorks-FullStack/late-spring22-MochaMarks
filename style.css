@@ -1,0 +1,32 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+
+main {
+  flex-grow: 1;
+}
+
+.object-cover {
+  object-fit: cover;
+}
+
+
+.action {
+ cursor: pointer;
+ transition: all .25s ease;
+}
+.action:hover {
+  transform: scale(1.02);
+}
+
+
+.fab {
+ border-radius: 5%;
+ position: fixed;
+ top: 3em;
+ right: 1em;
+ z-index: 2
+}
